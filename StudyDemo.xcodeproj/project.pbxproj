@@ -15,6 +15,7 @@
 		0BD3A9BC21DF6C560024128E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3A9BB21DF6C560024128E /* main.m */; };
 		0BD3A9C621DF6C570024128E /* StudyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3A9C521DF6C570024128E /* StudyDemoTests.m */; };
 		0BD3A9D121DF6C570024128E /* StudyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3A9D021DF6C570024128E /* StudyDemoUITests.m */; };
+		0BD3A9E021E04A060024128E /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3A9DF21E04A060024128E /* MyTableView.m */; };
 		A3D5FFB6906E4F456223C270 /* libPods-StudyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A57E5315578F18758E73478D /* libPods-StudyDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		0BD3A9CC21DF6C570024128E /* StudyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD3A9D021DF6C570024128E /* StudyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyDemoUITests.m; sourceTree = "<group>"; };
 		0BD3A9D221DF6C570024128E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BD3A9DE21E04A060024128E /* MyTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
+		0BD3A9DF21E04A060024128E /* MyTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
 		5A8DD9CE22E6892BFAE28B8A /* Pods-StudyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyDemo.release.xcconfig"; path = "Target Support Files/Pods-StudyDemo/Pods-StudyDemo.release.xcconfig"; sourceTree = "<group>"; };
 		80B02D384E2D05800D6E648A /* libPods-StudyDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudyDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57E5315578F18758E73478D /* libPods-StudyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +122,8 @@
 				0BD3A9B721DF6C560024128E /* LaunchScreen.storyboard */,
 				0BD3A9BA21DF6C560024128E /* Info.plist */,
 				0BD3A9BB21DF6C560024128E /* main.m */,
+				0BD3A9DE21E04A060024128E /* MyTableView.h */,
+				0BD3A9DF21E04A060024128E /* MyTableView.m */,
 			);
 			path = StudyDemo;
 			sourceTree = "<group>";
@@ -157,7 +162,6 @@
 				FC8312070B1ECB761CED6A8B /* Pods-StudyDemo.debug.xcconfig */,
 				5A8DD9CE22E6892BFAE28B8A /* Pods-StudyDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -318,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BD3A9B121DF6C540024128E /* ViewController.m in Sources */,
+				0BD3A9E021E04A060024128E /* MyTableView.m in Sources */,
 				0BD3A9BC21DF6C560024128E /* main.m in Sources */,
 				0BD3A9AE21DF6C540024128E /* AppDelegate.m in Sources */,
 			);
