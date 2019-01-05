@@ -24,7 +24,7 @@
     
     //只下载图片
     //[image sd_setImageWithURL:url1];
-    
+    //
     //参数：图片的url 占位图片
     [image sd_setImageWithURL:url1 placeholderImage:[UIImage imageNamed:@"占位图"]];
     //image sd_setImageWithURL:url1 completed:nil];
